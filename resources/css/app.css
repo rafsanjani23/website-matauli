@@ -4,3 +4,23 @@
 @source "../../storage/framework/views/*.php";
 @source "../**/*.blade.php";
 @source "../**/*.js";
+
+@theme {
+  --color-matauli-blue-dark: #0a1628;
+  --color-matauli-blue: #1e3a8a;
+  --color-matauli-blue-light: #2d4a9a;
+  --color-matauli-orange: #f59e0b;
+  --color-matauli-orange-dark: #d97706;
+}
+
+body {
+  font-family:
+    system-ui,
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    Roboto,
+    "Helvetica Neue",
+    Arial,
+    sans-serif;
+}
