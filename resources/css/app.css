@@ -24,3 +24,15 @@ body {
     Arial,
     sans-serif;
 }
+
+@utility navlink-hover {
+  --underline-height: 2px;
+  --underline-offset: 4px;
+  --dur: 300ms;
+
+  @apply after:bg-matauli-orange relative text-white transition duration-(--dur) after:absolute after:-bottom-(--underline-offset) after:left-0 after:h-(--underline-height) after:w-0 after:transition-all after:duration-(--dur) hover:text-gray-200 hover:after:w-full;
+}
+
+@utility dropdown-item {
+  @apply hover:text-matauli-orange block px-4 py-2 text-gray-700 transition hover:bg-gray-100;
+}
