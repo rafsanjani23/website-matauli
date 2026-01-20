@@ -36,3 +36,38 @@ body {
 @utility dropdown-item {
   @apply hover:text-matauli-orange block px-4 py-2 text-gray-700 transition hover:bg-gray-100;
 }
+
+@layer components{
+    summary::-webkit-details-marker {
+    display: none;
+  }
+  summary {
+    list-style: none;
+  }
+  .nav-dropdown-content {
+    @apply absolute left-0 mt-2 w-48 rounded-md shadow-lg py-1 z-50 ;
+    background-color: rgba(255, 255, 255, 0.8); /* Opacity 90% */
+    backdrop-filter: blur(8px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(-10px);
+    transition: opacity 0.4s ease, transform 0.4s ease, visibility 0.4s;
+    transition-delay: 2000ms;
+  }
+  .group:hover .nav-dropdown-content,
+  details[open] .nav-dropdown-content{
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+    transition-delay: 0ms;
+  };
+  details[open] summary::before {
+    content: "";
+    position: fixed;
+    inset: 0;
+    background: transparent;
+    z-index: 40;
+    cursor: default;
+  }
+}

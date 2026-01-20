@@ -22,67 +22,107 @@
 
                 <!-- Navigation Menu -->
                 <div class="hidden md:block">
-                    <div class="ml-10 flex items-center space-x-8">
+                    <div class="ml-10 flex items-center gap-x-2">
                         <a href="#beranda" class="text-white hover:text-gray-200 transition duration-300 navlink-hover">
                             Beranda
                         </a>
 
                         <!-- Dropdown Tentang Kami -->
                         <div class="relative group">
-                            <button
-                                class="text-white hover:text-gray-200 transition duration-300 flex items-center navlink-hover">
-                                Tentang Kami
-                                <svg class="ml-1 w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                        d="M19 9l-7 7-7-7" />
-                                </svg>
-                            </button>
+                            <details class="dropdown-details">
+                                <summary
+                                    class="text-white px-3 py-2 hover:text-gray-200 transition duration-300 flex items-center cursor-pointer list-none navlink-hover focus:outline-none">
+                                    Tentang Kami
+                                    <svg class="ml-1 w-4 h-4 transition-transform group-hover:rotate-180" fill="none"
+                                        stroke="currentColor" viewBox="0 0 24 24">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                            d="M19 9l-7 7-7-7" />
+                                    </svg>
+                                </summary>
+                                <ul class="nav-dropdown-content">
+                                    <li><a href="#visi-misi"
+                                            class="block px-4 py-2 text-sm text-gray-800 hover:bg-gray-100">Visi &
+                                            Misi</a></li>
+                                    <li><a href="#sejarah"
+                                            class="block px-4 py-2 text-sm text-gray-800 hover:bg-gray-100">Sejarah</a>
+                                    </li>
+                                    <li><a href="#struktur"
+                                            class="block px-4 py-2 text-sm text-gray-800 hover:bg-gray-100">Struktur
+                                            Organisasi</a></li>
+                                </ul>
+                            </details>
                             <ul
-                                class="absolute left-0 mt-2 w-48 bg-white rounded-md shadow-lg opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300">
-                                <li><a href="#visi-misi" class="block px-4 py-2 text-gray-800 hover:bg-gray-100">Visi &
-                                        Misi</a></li>
+                                class="nav-dropdown-content hidden group-hover:block">
+                                <li><a href="#visi-misi"
+                                        class="block px-4 py-2 text-sm text-gray-800 hover:bg-gray-100">Visi & Misi</a>
+                                </li>
                                 <li><a href="#sejarah"
-                                        class="block px-4 py-2 text-gray-800 hover:bg-gray-100">Sejarah</a></li>
-                                <li><a href="#struktur" class="block px-4 py-2 text-gray-800 hover:bg-gray-100">Struktur
+                                        class="block px-4 py-2 text-sm text-gray-800 hover:bg-gray-100">Sejarah</a></li>
+                                <li><a href="#struktur"
+                                        class="block px-4 py-2 text-sm text-gray-800 hover:bg-gray-100">Struktur
                                         Organisasi</a></li>
                             </ul>
                         </div>
 
                         <!-- Dropdown Satuan Pendidikan -->
                         <div class="relative group">
-                            <button
-                                class="text-white hover:text-gray-200 transition duration-300 flex items-center navlink-hover">
-                                Satuan Pendidikan
-                                <svg class="ml-1 w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                        d="M19 9l-7 7-7-7" />
-                                </svg>
-                            </button>
+                            <details class="dropdown-details">
+                                <summary
+                                    class="text-white px-3 py-2 hover:text-gray-200 transition duration-300 flex items-center cursor-pointer list-none navlink-hover focus:outline-none">
+                                    Satuan Pendidikan
+                                    <svg class="ml-1 w-4 h-4 transition-transform group-hover:rotate-180" fill="none"
+                                        stroke="currentColor" viewBox="0 0 24 24">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                            d="M19 9l-7 7-7-7" />
+                                    </svg>
+                                </summary>
+                                <ul class="nav-dropdown-content">
+                                    <li><a href="#universitas"
+                                            class="block px-4 py-2 text-sm text-gray-800 hover:bg-gray-100">Universitas</a>
+                                    </li>
+                                    <li><a href="#sekolah"
+                                            class="block px-4 py-2 text-sm text-gray-800 hover:bg-gray-100">Sekolah</a>
+                                    </li>
+                                </ul>
+                            </details>
                             <ul
-                                class="absolute left-0 mt-2 w-48 bg-white rounded-md shadow-lg opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300">
+                                class="nav-dropdown-content hidden group-hover:block ">
                                 <li><a href="#universitas"
-                                        class="block px-4 py-2 text-gray-800 hover:bg-gray-100">Universitas</a></li>
+                                        class="block px-4 py-2 text-sm text-gray-800 hover:bg-gray-100">Universitas</a>
+                                </li>
                                 <li><a href="#sekolah"
-                                        class="block px-4 py-2 text-gray-800 hover:bg-gray-100">Sekolah</a></li>
+                                        class="block px-4 py-2 text-sm text-gray-800 hover:bg-gray-100">Sekolah</a></li>
                             </ul>
                         </div>
-
                         <!-- Dropdown Berita -->
                         <div class="relative group">
-                            <button
-                                class="text-white hover:text-gray-200 transition duration-300 flex items-center navlink-hover">
-                                Berita
-                                <svg class="ml-1 w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                        d="M19 9l-7 7-7-7" />
-                                </svg>
-                            </button>
+                            <details class="dropdown-details">
+                                <summary
+                                    class="text-white px-3 py-2 hover:text-gray-200 transition duration-300 flex items-center cursor-pointer list-none navlink-hover focus:outline-none">
+                                    Berita
+                                    <svg class="ml-1 w-4 h-4 transition-transform group-hover:rotate-180" fill="none"
+                                        stroke="currentColor" viewBox="0 0 24 24">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                            d="M19 9l-7 7-7-7" />
+                                    </svg>
+                                </summary>
+                                <ul class="nav-dropdown-content">
+                                    <li><a href="#berita-terbaru"
+                                            class="block px-4 py-2 text-sm text-gray-800 hover:bg-gray-100">Berita
+                                            Terbaru</a></li>
+                                    <li><a href="#pengumuman"
+                                            class="block px-4 py-2 text-sm text-gray-800 hover:bg-gray-100">Pengumuman</a>
+                                    </li>
+                                </ul>
+                            </details>
                             <ul
-                                class="absolute left-0 mt-2 w-48 bg-white rounded-md shadow-lg opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300">
+                                class="nav-dropdown-content hidden group-hover:block ">
                                 <li><a href="#berita-terbaru"
-                                        class="block px-4 py-2 text-gray-800 hover:bg-gray-100">Berita Terbaru</a></li>
+                                        class="block px-4 py-2 text-sm text-gray-800 hover:bg-gray-100">Berita
+                                        Terbaru</a></li>
                                 <li><a href="#pengumuman"
-                                        class="block px-4 py-2 text-gray-800 hover:bg-gray-100">Pengumuman</a></li>
+                                        class="block px-4 py-2 text-sm text-gray-800 hover:bg-gray-100">Pengumuman</a>
+                                </li>
                             </ul>
                         </div>
 
