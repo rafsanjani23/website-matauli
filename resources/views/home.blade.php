@@ -51,8 +51,7 @@
                                             Organisasi</a></li>
                                 </ul>
                             </details>
-                            <ul
-                                class="nav-dropdown-content hidden group-hover:block">
+                            <ul class="nav-dropdown-content hidden group-hover:block">
                                 <li><a href="#visi-misi"
                                         class="block px-4 py-2 text-sm text-gray-800 hover:bg-gray-100">Visi & Misi</a>
                                 </li>
@@ -85,8 +84,7 @@
                                     </li>
                                 </ul>
                             </details>
-                            <ul
-                                class="nav-dropdown-content hidden group-hover:block ">
+                            <ul class="nav-dropdown-content hidden group-hover:block ">
                                 <li><a href="#universitas"
                                         class="block px-4 py-2 text-sm text-gray-800 hover:bg-gray-100">Universitas</a>
                                 </li>
@@ -115,8 +113,7 @@
                                     </li>
                                 </ul>
                             </details>
-                            <ul
-                                class="nav-dropdown-content hidden group-hover:block ">
+                            <ul class="nav-dropdown-content hidden group-hover:block ">
                                 <li><a href="#berita-terbaru"
                                         class="block px-4 py-2 text-sm text-gray-800 hover:bg-gray-100">Berita
                                         Terbaru</a></li>
@@ -158,7 +155,7 @@
     </nav>
 
     <!-- Hero Section -->
-    <section class="bg-linear-to-br from-[#0f1f4a] via-matauli-blue to-matauli-blue-light pt-20">
+    <section class="bg-linear-to-br from-[#0f1f4a] via-[#1a2f6f] to-matauli-blue pt-20">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20">
             <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
                 <!-- Left Content -->
@@ -192,7 +189,8 @@
                     <div class="flex items-start space-x-4">
                         <div class="shrink-0">
                             <div class="bg-matauli-orange p-3 rounded-lg">
-                                <svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <svg class="w-8 h-8 text-white" fill="none" stroke="currentColor"
+                                    viewBox="0 0 24 24">
                                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                                         d="M10 6H5a2 2 0 00-2 2v9a2 2 0 002 2h14a2 2 0 002-2V8a2 2 0 00-2-2h-5m-4 0V5a2 2 0 114 0v1m-4 0a2 2 0 104 0m-5 8a2 2 0 100-4 2 2 0 000 4zm0 0c1.306 0 2.417.835 2.83 2M9 14a3.001 3.001 0 00-2.83 2M15 11h3m-3 4h2" />
                                 </svg>
@@ -207,7 +205,8 @@
                     <div class="flex items-start space-x-4">
                         <div class="shrink-0">
                             <div class="bg-matauli-orange p-3 rounded-lg">
-                                <svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <svg class="w-8 h-8 text-white" fill="none" stroke="currentColor"
+                                    viewBox="0 0 24 24">
                                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                                         d="M4 5a1 1 0 011-1h4a1 1 0 011 1v7a1 1 0 01-1 1H5a1 1 0 01-1-1V5zM14 5a1 1 0 011-1h4a1 1 0 011 1v7a1 1 0 01-1 1h-4a1 1 0 01-1-1V5zM4 16a1 1 0 011-1h4a1 1 0 011 1v3a1 1 0 01-1 1H5a1 1 0 01-1-1v-3zM14 16a1 1 0 011-1h4a1 1 0 011 1v3a1 1 0 01-1 1h-4a1 1 0 01-1-1v-3z" />
                                 </svg>
@@ -222,7 +221,8 @@
                     <div class="flex items-start space-x-4">
                         <div class="shrink-0">
                             <div class="bg-matauli-orange p-3 rounded-lg">
-                                <svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <svg class="w-8 h-8 text-white" fill="none" stroke="currentColor"
+                                    viewBox="0 0 24 24">
                                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                                         d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
                                 </svg>
@@ -237,7 +237,8 @@
                     <div class="flex items-start space-x-4">
                         <div class="shrink-0">
                             <div class="bg-matauli-orange p-3 rounded-lg">
-                                <svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <svg class="w-8 h-8 text-white" fill="none" stroke="currentColor"
+                                    viewBox="0 0 24 24">
                                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                                         d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z" />
                                 </svg>
@@ -370,11 +371,13 @@
 
                         <ul class="mt-6 space-y-4 text-sm">
                             <li>
-                                <a href="#" class="text-gray-700 transition hover:opacity-75"> 1on1 Coaching </a>
+                                <a href="#" class="text-gray-700 transition hover:opacity-75"> 1on1 Coaching
+                                </a>
                             </li>
 
                             <li>
-                                <a href="#" class="text-gray-700 transition hover:opacity-75"> Company Review </a>
+                                <a href="#" class="text-gray-700 transition hover:opacity-75"> Company Review
+                                </a>
                             </li>
 
                             <li>
@@ -384,7 +387,8 @@
                             </li>
 
                             <li>
-                                <a href="#" class="text-gray-700 transition hover:opacity-75"> HR Consulting </a>
+                                <a href="#" class="text-gray-700 transition hover:opacity-75"> HR Consulting
+                                </a>
                             </li>
 
                             <li>
@@ -404,7 +408,8 @@
                             </li>
 
                             <li>
-                                <a href="#" class="text-gray-700 transition hover:opacity-75"> Meet the Team </a>
+                                <a href="#" class="text-gray-700 transition hover:opacity-75"> Meet the Team
+                                </a>
                             </li>
 
                             <li>
@@ -438,15 +443,18 @@
 
                         <ul class="mt-6 space-y-4 text-sm">
                             <li>
-                                <a href="#" class="text-gray-700 transition hover:opacity-75"> Accessibility </a>
+                                <a href="#" class="text-gray-700 transition hover:opacity-75"> Accessibility
+                                </a>
                             </li>
 
                             <li>
-                                <a href="#" class="text-gray-700 transition hover:opacity-75"> Returns Policy </a>
+                                <a href="#" class="text-gray-700 transition hover:opacity-75"> Returns Policy
+                                </a>
                             </li>
 
                             <li>
-                                <a href="#" class="text-gray-700 transition hover:opacity-75"> Refund Policy </a>
+                                <a href="#" class="text-gray-700 transition hover:opacity-75"> Refund Policy
+                                </a>
                             </li>
 
                             <li>
@@ -465,7 +473,7 @@
 
     <script>
         // Mobile menu toggle
-        document.getElementById('mobile-menu-button').addEventListener('click', function () {
+        document.getElementById('mobile-menu-button').addEventListener('click', function() {
             const menu = document.getElementById('mobile-menu');
             menu.classList.toggle('hidden');
         });
